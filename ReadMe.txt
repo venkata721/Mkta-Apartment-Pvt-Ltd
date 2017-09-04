@@ -33,7 +33,7 @@ Test Credentials:
 
 Employee:
 
-Employee ID: masthan@mkta.com,anvesh@mkta.com
+Employee ID:anvesh@mkta.com
 Password: Password@1234
 
 Resident:
