@@ -1,0 +1,108 @@
+﻿
+
+body {
+}
+
+#allotmentDetail {
+overflow: scroll;
+float:left;
+width:94%; 
+height:618px;
+ text-align:left;
+  padding:20px; 
+  border: blue solid 2px;
+   font-family: garamond; 
+   font-size: x-large; 
+   font-weight: bold; 
+   color: #FFFFFF;
+}
+
+#resProfile{
+overflow: scroll;
+float:left;
+width:94%; 
+height:618px;
+ text-align:left;
+  padding:20px; 
+  border: red solid 2px;
+   font-family: garamond; 
+   font-size: x-large; 
+   font-weight: bold; 
+   color: #FFFFFF;
+}
+
+
+#Header {
+    font-family: Garamond;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ff6600;
+    border: 2px solid #000000;
+    padding: 10px;
+    width: 80%;
+    left:10%;
+    right:10%;
+    height: 100px;
+    position: relative;
+   
+    top: -8px;
+}
+
+#headerNavigation {
+text-decoration:none;
+font-size:x-large;
+color: antiquewhite;
+
+}
+
+.Arrow {    
+position:relative;
+bottom:300px;
+}
+
+
+.links {
+text-decoration: none;
+color:white;
+}
+
+#Content {
+    font-family: Garamond;
+    font-size: large;
+    color: #000000;
+    background-color: #000000;
+    border: 2px solid #ff6600;
+    width: 80%;
+    height: 688px;
+    position: relative;
+    padding: 10px;
+    left: 10%;
+    right: 10%;
+    top: -8px;
+}
+.pixThirty {
+font-size:30px;
+}
+
+.pixTwenty {
+font-size:20px;
+}
+
+#footer {
+    font-family: Garamond;
+        font-size: x-large;
+ color:#000000 ;
+    text-align: center;
+    background-color: #ff6600;
+    border: 2px solid #000000;
+    width: 80%;
+    height: 130px;
+        padding: 0px 10px 0px 10px ;
+  position: relative;
+      left: 10%;    
+    right: 10%;
+    top: -8px;
+    bottom:-10%;
+}
+

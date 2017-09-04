@@ -1,0 +1,51 @@
+  <Advertisements>
+   <Ad>
+      <ImageUrl>home1.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+      <AlternateText>Apartments</AlternateText>
+      <Impressions>2</Impressions>
+      <Keyword>Images</Keyword>
+   </Ad>
+    <Ad>
+      <ImageUrl>home2.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+      <AlternateText>Apartments</AlternateText>
+      <Impressions>2</Impressions>
+      <Keyword>Images</Keyword>
+   </Ad> <Ad>
+      <ImageUrl>home3.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+      <AlternateText>Apartments</AlternateText>
+      <Impressions>2</Impressions>
+      <Keyword>Images</Keyword>
+   </Ad> <Ad>
+      <ImageUrl>home4.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+      <AlternateText>Apartments</AlternateText>
+      <Impressions>2</Impressions>
+      <Keyword>Images</Keyword>
+   </Ad>
+     <Ad>
+      <ImageUrl>home5.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+      <AlternateText>Apartments</AlternateText>
+      <Impressions>2</Impressions>
+      <Keyword>Images</Keyword>
+   </Ad>
+ <Ad>
+      <ImageUrl>home6.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+      <AlternateText>Apartments</AlternateText>
+      <Impressions>2</Impressions>
+      <Keyword>Images</Keyword>
+   </Ad>
+ <Ad>
+      <ImageUrl>home7.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+      <AlternateText>Apartments</AlternateText>
+      <Impressions>2</Impressions>
+      <Keyword>Images</Keyword>
+   </Ad>
+
+   
+   </Advertisements>

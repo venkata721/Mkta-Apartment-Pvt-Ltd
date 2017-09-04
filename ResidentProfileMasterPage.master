@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ResidentProfileMasterPage.master.cs" Inherits="ResidentProfileMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">       
+    <title>Welcome To Your Profile Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-image: url('/Images/resbg.jpg'); overflow:hidden;">
+    <form id="form1" runat="server">
+    
+        <div id="Header">
+            <div id="logo">
+                <asp:Image ID="logooo" runat="server" AlternateText="MKTA Real Estate Private Limited"  ImageUrl="~/Images/logo.jpg" Height="117px" style="margin-top:-9px; margin-left:-10px;" ImageAlign="Left" Width="16%" BorderColor="#FFFFFF" BorderWidth="1px" BorderStyle="Solid" BackColor="#FF6600" />
+            </div>  
+&nbsp;                      MKTA Real Estate Private Limited
+            <div id="headerNavigation">
+                <br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ResidentProfilePage.aspx" CssClass="links"> My Profile </asp:HyperLink>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/ResServices.aspx" CssClass="links">Services</asp:HyperLink>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ResAboutUsPage.aspx" CssClass="links">About Us</asp:HyperLink>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/ResContactUsPage.aspx" CssClass="links">Contact Us</asp:HyperLink>
+
+            </div>
+               
+
+       </div>
+        
+        <div id="Content">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+        <div id="footer">
+            <b>&copy; Copyright 2016 @  Students of University of Central Missouri<br/>
+					MKTA Real Estate Private Limited<br/>
+					Follow Us On :<br/></b>
+					<a href="www.facebook.com" style="text-decoration: none"><asp:Image ID="Image1" runat="server" AlternateText="Facebook" Height="30px" Width="30px" ImageUrl="~/Images/fb.png" /> </a>
+					<a href="www.twitter.com" style="text-decoration: none"><asp:Image ID="Image2" runat="server" AlternateText="Twitter" Height="30px" Width="30px"  ImageUrl="~/Images/twit.png" /> </a>
+					<a href="www.youtube.com" style="text-decoration: none"><asp:Image ID="Image3" runat="server" AlternateText="You Tube" Height="30px" Width="30px"  ImageUrl="~/Images/yt.png" /> </a>
+					<a href="www.gmail.com" style="text-decoration: none"><asp:Image ID="Image4" runat="server" AlternateText="Gmail" Height="30px" Width="30px"  ImageUrl="~/Images/gpl.png" /> </a>
+        
+        </div>
+    
+    </form>
+</body>
+</html>
